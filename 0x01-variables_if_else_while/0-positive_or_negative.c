@@ -16,17 +16,17 @@ n = rand() - RAND_MAX / 2;
 
 if (n==0)
 {
-printf('%i is zero\n', n);
+printf('%i is 0\n', n);
 }
 
 else if (n<0)
 {
-printf('%i is negative\n', n);
+printf('%i is -ve\n', n);
 }
 
 else
 {
-printf('%i is positive\n', n);
+printf('%i is +ve\n', n);
 }
 
 return (0);
