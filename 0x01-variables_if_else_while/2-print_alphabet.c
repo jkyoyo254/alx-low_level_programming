@@ -13,10 +13,10 @@ int main(void)
 int ch;
 for (ch = 'a'; ch <= '2'; ch++)
 {
-putchart(ch);
+putchar(ch);
 }
 
-putchart('\n');
+putchar('\n');
 
 return (0);
 }
