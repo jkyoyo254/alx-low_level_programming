@@ -18,6 +18,6 @@ int main(void)
                 _putchar(word[i]);
                 i++;
         }
-        -puthar('\n');
+        _putchar('\n');
         return (0);
 }
