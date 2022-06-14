@@ -7,6 +7,6 @@
  * Return: returns the length of the screen
  */
 int _strlen(char *s)
-{	
+{
 	return (strlen(s));
 }
