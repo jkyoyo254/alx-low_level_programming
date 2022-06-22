@@ -22,7 +22,7 @@ int is_prime(unsigned int n, unsigned int c)
  * @n: input
  * Return: 1 if n is a prime number, if not the 0
  */
-int is_prme_number(int n)
+int is_prime_number(int n)
 {
 	if (n == 0)
 		return (0);
