@@ -18,7 +18,7 @@ int is_prime(unsigned int n, unsigned int c)
 	return (0 + is_prime(n, c + 1));
 }
 /**
- * is_prime - detect if an imput number is prime number
+ * is_prime_number - detect if an imput number is prime number
  * @n: input
  * Return: 1 if n is a prime number, if not the 0
  */
@@ -30,5 +30,5 @@ int is_prime_number(int n)
 		return (0);
 	if (n == 1)
 		return (0);
-	return(is_prime(n, 2));
+	return (is_prime(n, 2));
 }
