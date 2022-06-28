@@ -4,7 +4,7 @@
 /**
  * free_grid - frees a2 dimensinal grid
  * @grid: multidimensional arry of integers
- * @height: height of the grid 
+ * @height: height of the grid
  *
  * Return: no return
  */
