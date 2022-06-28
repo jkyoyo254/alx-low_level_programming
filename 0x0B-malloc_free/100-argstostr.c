@@ -36,14 +36,17 @@ char *argstostr(int ac, char **av)
 
 	for (i = j = ia = 0; ia < c; j++, ia++)
 	{
-		aout[ia] = '\n';
-		i++;
-		ia++;
-		j = 0;
+		if (av[i][j] == '\0')
+		{	
+			aout[ia] = '\n';
+			i++;
+			ia++;
+			j = 0;
+		}
+		if (ia < c - 1)
+			aout[ia] = av[i][j];
 	}
-	if (ia < c - 1)
-		aout[ia] = av[i][j];
+	aout[ia] = '\0';
+	
+	return (aout);
 }
-aout[ia] = '\0'
-
-return (aout);
